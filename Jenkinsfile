@@ -29,7 +29,7 @@ pipeline {
   {
     always
     {
-        emailext body: 'summary', replyTo: 'rajurakesh441@gmail.com', subject: 'notify', to: 'rajurakesh441@gmail.com'
+        emailext body: 'sample', replyTo: 'rajurakesh441@gmail.com', subject: 'practice', to: 'rajurakesh441@gmail.com'
     }
   }
 }
