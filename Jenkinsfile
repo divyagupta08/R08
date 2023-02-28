@@ -29,7 +29,7 @@ pipeline {
   {
     always
     {
-      emailext body: 'Summary', replyTo: 'divyagupta0642@gmail.com', subject: 'Pipeline-Notify', to: 'divyagupta0642@gmail.com'
+        emailext body: 'summary', replyTo: 'rajurakesh441@gmail.com', subject: 'notify', to: 'rajurakesh441@gmail.com'
     }
   }
 }
